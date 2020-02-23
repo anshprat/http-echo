@@ -15,7 +15,7 @@ import (
 
 var (
 	listenFlag  = flag.String("listen", ":5678", "address and port to listen")
-	textFlag    = flag.String("text", "", "text to put on the webpage")
+	textFlag    = flag.String("text", "helloWorld", "text to put on the webpage")
 	versionFlag = flag.Bool("version", false, "display version information")
 
 	// stdoutW and stderrW are for overriding in test.
